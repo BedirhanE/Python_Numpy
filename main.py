@@ -23,8 +23,34 @@ print("0  dan 10 a kadar rastgele array oluşturma:",rast_gele)
 print("arrayın size boyutu:",len(rast_gele))
 
 
-#2 boyutlu array i 3 boyutlu hale dönüştürmek
+#2 boyutlu array i 3 boyutlu hale dönüştürmek reshape(yedniden şekillendirem işlemi)
 
 print(np.arange(1,10))
 
 print(np.arange(1,10).reshape((3,3)))
+
+#array birleştirme işlemleri
+x=np.array([1,2,3])
+y=np.array([4,5,6])
+
+print("iki array birleşimi:",np.concatenate([x,y]))
+
+z=np.array(["p","r","s"])
+print("üç farklı array birleşimi:",np.concatenate([x,y,z]))
+
+#array ayırma işlemleri
+
+x=np.array([1,2,3,4,78,89,45,56])
+
+#numpy da split fonk. kullanarak tek bir arrayı 3 farklı arraya ayırma işlemi
+print(np.split(x,[4,6]))
+
+
+a,b,c= np.split(x,[4,6])
+print("array a:",a)
+print("array b:",b)
+print("array c:",c)
+
+
+print(np.random.randint(0,100,size=10))
+
