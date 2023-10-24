@@ -17,11 +17,20 @@ print("Arrayın sıralamadan önceki hali:",sırasız)
 print("Arrayın sıralama yapıldıktan sonraki hali:",sıralı)
 
 
-
-
-
-
 #İki Boyutlu array sıralama
 
 m=np.random.normal(20,5,(3,3))
-print(m)
+print("3 boyutlu matrix in sırasız hali",m)
+
+sıralı_m=np.sort(m)
+print("3 boyutlu bir matrix in sıralı hali:",sıralı_m)
+
+
+#slicing ile elemanlara erişmek
+a=np.arange(20,30)
+
+print(a)
+print("0 indexinden 3. indexe kadar olan veriler: ",a[0:3])
+print("başlangıç:Bitiş:artış miktarı na göre çekilen veriler:",a[0:8:2])  #0 dan 8 e kadar olan verileri 2 şer 2 şer olarak yazdıran kod.
+
+#
