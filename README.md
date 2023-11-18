@@ -1,5 +1,5 @@
 # Python_Numpy
-Numpy kütüphanesi kullanımı ve örnekleri 
+Numpy kütüphanesi kullanımı ve örneklerini içeren temel kodları paylaştım README dosyasında da python programalam dili ile ilgili temel bilgileri bulabilirisiniz.Herkese iyi çalışmalar.
 
 ### NumPy
 Bilimsel Hesaplamaların Temel Taşı
