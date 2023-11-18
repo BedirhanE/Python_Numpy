@@ -1,7 +1,7 @@
 # Python_Numpy
 Numpy kütüphanesi kullanımı ve örnekleri 
 
-### NumPy:
+### NumPy
 Bilimsel Hesaplamaların Temel Taşı
 Python'un bilimsel hesaplamalar, lineer cebir operasyonları ve çok boyutlu veri manipülasyonu için en temel kütüphanelerinden biri olan NumPy, veri bilimi ve mühendislik uygulamalarında geniş bir kullanım alanına sahiptir.
 
